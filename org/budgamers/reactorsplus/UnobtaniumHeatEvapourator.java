@@ -7,9 +7,9 @@ import ic2.api.item.Items;
 import ic2.api.reactor.IReactor;
 import ic2.api.reactor.IReactorComponent;
 
-public class UE extends Item implements IReactorComponent {
+public class UnobtaniumHeatEvapourator extends Item implements IReactorComponent {
 
-	public UE(int par1) {
+	public UnobtaniumHeatEvapourator(int par1) {
 		super(par1);
 		
 		setUnlocalizedName("unobtaniumE");

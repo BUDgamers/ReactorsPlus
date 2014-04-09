@@ -17,8 +17,8 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid = "ic2addon", name = "Reactors+", version = "1.53")
-public class IC2Addon {
+@Mod(modid = "reactorsplus", name = "Reactors+", version = "1.53")
+public class ReactorsPlus {
 
 	public static Block unobtaniumOre;
 	
@@ -64,16 +64,16 @@ public class IC2Addon {
 	
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
-		unobtaniumOre = new UOOre(unobtaniumOreID, Material.rock);
+		unobtaniumOre = new UnobtaniumOre(unobtaniumOreID, Material.rock);
 		
-		unobtanium = new UO(unobtaniumID);
-		extremeCircuit = new EC(extremeCircuitID);
-		enrichedUnstableUnobtanium = new EUUO(enrichedUnstableUnobtaniumID);
-		enrichedUnobtanium = new EUO(enrichedUnobtaniumID);
-		enrichedUnobtaniumIngot = new EUOI(enrichedUnobtaniumIngotID);
-		unobtaniumPlate = new UOP(unobtaniumPlateID);
-		unobtaniumHeatVent = new UHV(unobtaniumHeatVentID);
-		unobtaniumHeatEvaporator = new UE(unobtaniumHeatEvaporatorID);
+		unobtanium = new Unobtanium(unobtaniumID);
+		extremeCircuit = new ExtremeCircuit(extremeCircuitID);
+		enrichedUnstableUnobtanium = new EnrichedUnstableUnobtanium(enrichedUnstableUnobtaniumID);
+		enrichedUnobtanium = new EnrichedUnobtanium(enrichedUnobtaniumID);
+		enrichedUnobtaniumIngot = new EnrichedUnobtaniumIngot(enrichedUnobtaniumIngotID);
+		unobtaniumPlate = new UnobtaniumPlate(unobtaniumPlateID);
+		unobtaniumHeatVent = new UnobtaniumHeatVent(unobtaniumHeatVentID);
+		unobtaniumHeatEvaporator = new UnobtaniumHeatEvapourator(unobtaniumHeatEvaporatorID);
 		
 		GameRegistry.registerBlock(unobtaniumOre, "oUnobtanium");
 		

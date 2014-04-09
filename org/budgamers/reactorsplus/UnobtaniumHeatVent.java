@@ -6,9 +6,9 @@ import net.minecraft.item.ItemStack;
 import ic2.api.reactor.IReactor;
 import ic2.api.reactor.IReactorComponent;
 
-public class UHV extends Item implements IReactorComponent {
+public class UnobtaniumHeatVent extends Item implements IReactorComponent {
 
-	public UHV(int par1) {
+	public UnobtaniumHeatVent(int par1) {
 		super(par1);
 		
 		setUnlocalizedName("unobtaniumVent");

@@ -3,9 +3,9 @@ package org.budgamers.reactorsplus;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class EC extends Item {
+public class ExtremeCircuit extends Item {
 	
-	public EC(int par1) {
+	public ExtremeCircuit(int par1) {
 		super(par1);
 		
 		setUnlocalizedName("extremeCircuit");

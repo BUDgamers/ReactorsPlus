@@ -3,7 +3,7 @@ package org.budgamers.reactorsplus;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class UO extends Item {
+public class Unobtanium extends Item {
 
 	public UO(int par1) {
 		super(par1);

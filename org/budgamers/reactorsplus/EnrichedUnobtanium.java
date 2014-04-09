@@ -3,9 +3,9 @@ package org.budgamers.reactorsplus;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class EUO extends Item {
+public class EnrichedUnobtanium extends Item {
 
-	public EUO(int par1) {
+	public EnrichedUnobtanium(int par1) {
 		super(par1);
 		
 		setUnlocalizedName("eUnobtanium");
